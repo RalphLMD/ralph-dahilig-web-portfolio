@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ralph-dahilig-web-portfolio/static/css/main.ffe34ec7.css",
+    "main.js": "/ralph-dahilig-web-portfolio/static/js/main.d7789520.js",
+    "static/media/mentalit-e.pdf": "/ralph-dahilig-web-portfolio/static/media/mentalit-e.4d080350db830e82d3ff.pdf",
+    "static/media/2f-order-hi-fidelity.pdf": "/ralph-dahilig-web-portfolio/static/media/2f-order-hi-fidelity.4c00060ee28893ffbba9.pdf",
+    "static/media/bg-image.jpg": "/ralph-dahilig-web-portfolio/static/media/bg-image.42a2660ff57b10b3ee33.jpg",
+    "static/media/dev-ralph.png": "/ralph-dahilig-web-portfolio/static/media/dev-ralph.0095d64d32c051492533.png",
+    "static/media/2f-go.png": "/ralph-dahilig-web-portfolio/static/media/2f-go.f753e90d2d36e1e7d9aa.png",
+    "static/media/react-icon.png": "/ralph-dahilig-web-portfolio/static/media/react-icon.af2e763c84253358ee6b.png",
+    "static/media/css-icon.png": "/ralph-dahilig-web-portfolio/static/media/css-icon.7e4bca2c8de846c38bd8.png",
+    "static/media/html-icon.png": "/ralph-dahilig-web-portfolio/static/media/html-icon.9dd7984c51ec7865ae42.png",
+    "static/media/little-lemon.png": "/ralph-dahilig-web-portfolio/static/media/little-lemon.aef9a9cb394506f248f1.png",
+    "static/media/ralph-dahilig-cv.pdf": "/ralph-dahilig-web-portfolio/static/media/ralph-dahilig-cv.6d7c94fb824734b7a0e2.pdf",
+    "static/media/git-icon.png": "/ralph-dahilig-web-portfolio/static/media/git-icon.06c009b3c226c5d7ef0b.png",
+    "static/media/js-icon.png": "/ralph-dahilig-web-portfolio/static/media/js-icon.d6cea0fccb402bcd1b4e.png",
+    "static/media/mentalit-e.png": "/ralph-dahilig-web-portfolio/static/media/mentalit-e.5ca9a9acdff6e57470fa.png",
+    "static/media/controller.png": "/ralph-dahilig-web-portfolio/static/media/controller.b65c823f1242700f77d9.png",
+    "static/media/logo.png": "/ralph-dahilig-web-portfolio/static/media/logo.4e6f28971f9bdb5cecc4.png",
+    "index.html": "/ralph-dahilig-web-portfolio/index.html",
+    "main.ffe34ec7.css.map": "/ralph-dahilig-web-portfolio/static/css/main.ffe34ec7.css.map",
+    "main.d7789520.js.map": "/ralph-dahilig-web-portfolio/static/js/main.d7789520.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffe34ec7.css",
+    "static/js/main.d7789520.js"
+  ]
+}
