@@ -41,11 +41,15 @@ export const AboutP = styled.p`
     margin: 25px;
     text-align: justify;
     line-height: 1.5rem;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    transition: all 1s;
     
-    @media screen and (min-width: 780px) {
-        font-size: 1.1rem;
-        transition: all ease;
+    @media screen and (max-width: 880px) {
+        font-size: 1rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 0.85rem;
     }
 `
 
@@ -87,14 +91,7 @@ export const TimeLineContent = styled.div`
     padding: 40px;
     position: relative;
     color: #000000;
-    transition: 0.3s ease-in-out;
-    font-size: 0.8rem;
-    
-    @media screen and (min-width: 780px) {
-        font-size: 1.1rem;
-        transition: all ease;
-    }
-  
+    transition: all 1s;
 
 &:nth-child(odd) {
     border-right: 3px solid;
@@ -124,13 +121,43 @@ export const TimeLineContent = styled.div`
 
 export const TimeLineTitle = styled.h1`
     margin-bottom: 25px;
+    font-size: 2.4rem;
+    transition: all 1s;
+    
+    @media screen and (max-width: 880px) {
+        font-size: 2rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 1.6rem;
+    }
 `
 
 export const TimeLineP = styled.p`
     margin-top: 10px;
+    font-size: 1.2rem;
+    transition: all 1s;
+    
+    @media screen and (max-width: 880px) {
+        font-size: 1rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 0.85rem;
+    }
 `
 
 
 export const TimeLineDate = styled.h3`
     margin-top: 25px;
+    font-size: 1.3rem;
+    transition: all 1s;
+    
+    @media screen and (max-width: 880px) {
+        font-size: 1.1rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 0.95rem;
+    }
 `

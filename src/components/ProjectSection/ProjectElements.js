@@ -14,10 +14,10 @@ export const ProjectH1 = styled.h1`
     font-size: 4rem;
     border-bottom: 3px solid #000000;
     text-align: center;
+    transition: all 1s;
 
     @media screen and (max-width: 780px) {
         font-size: 3.25rem;
-        transition: 0.3s ease-in-out;
     }
 `
 export const ProjectCard = styled.div`
@@ -25,7 +25,7 @@ export const ProjectCard = styled.div`
     flex-wrap: wrap;
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
     margin: 25px;
-    transition: 0.3s ease-in-out;
+    transition: all 1s;
 
     &:hover {
         transform: scale(1.030);
@@ -45,15 +45,22 @@ export const CardImg = styled.img`
     max-width: 100%;
     width: 400px;
     margin: 10px;
+    transition: all 1s;
 
     @media screen and (max-width: 1010px) {
         width: 330px;
-        transition: all ease-in-out 0.2s;
     }
 
-    @media screen and (max-width: 890px) {
-        width: 250px;
-        transition: all ease-in-out 0.2s;
+    @media screen and (max-width: 700px) {
+        width: 300px;
+    }
+
+    @media screen and (max-width: 490px) {
+        width: 230px;
+    }
+
+    @media screen and (max-width: 420px) {
+        width: 150px;
     }
 `
 
@@ -70,21 +77,45 @@ export const CardDetailSection = styled.div`
 export const CardTitle = styled.h1`
     margin-bottom: 15px;
     text-align: center;
+    font-size: 2.4rem;
+    transition: all 1s;
+    
+    @media screen and (max-width: 880px) {
+        font-size: 2rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 1.6rem;
+    }
 `
 
 export const CardSubTitle = styled.h2`
     margin-bottom: 15px;
     text-align: center;
+    font-size: 1.5rem;
+    transition: all 1s;
+    
+    @media screen and (max-width: 880px) {
+        font-size: 1.3rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 1.15rem;
+    }
 `
 
 export const CardPar = styled.p`
     text-align: justify;
     margin: 15px 5px;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
+    transition: all 1s;
     
-    @media screen and (min-width: 780px) {
-        font-size: 1.1rem;
-        transition: all ease;
+    @media screen and (max-width: 880px) {
+        font-size: 1rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 0.85rem;
     }
 `
 
