@@ -37,6 +37,7 @@ const HeroSection = () => {
                 delaySpeed={1500}
                 />
             </HeroH3>
+            
             <HeroButton href={require("../../files/ralph-dahilig-cv.pdf")} target="_blank">View Resume</HeroButton>
         </HeroProfile>
 
