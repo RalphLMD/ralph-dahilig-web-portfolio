@@ -1,28 +1,39 @@
 {
   "files": {
     "main.css": "/ralph-dahilig-web-portfolio/static/css/main.ffe34ec7.css",
-    "main.js": "/ralph-dahilig-web-portfolio/static/js/main.95cd1a01.js",
+    "main.js": "/ralph-dahilig-web-portfolio/static/js/main.b309326e.js",
     "static/media/mentalit-e.pdf": "/ralph-dahilig-web-portfolio/static/media/mentalit-e.4d080350db830e82d3ff.pdf",
+    "static/media/JLP-PJ_LINK-N5-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/JLP-PJ_LINK-N5-Certificate.9a1aeb037e870889395d.pdf",
+    "static/media/UB-Certified_Data_Science_Apprentice-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/UB-Certified_Data_Science_Apprentice-Certificate.eedffeaf56080a3849ad.pdf",
     "static/media/2f-order-hi-fidelity.pdf": "/ralph-dahilig-web-portfolio/static/media/2f-order-hi-fidelity.4c00060ee28893ffbba9.pdf",
     "static/media/bg-image.jpg": "/ralph-dahilig-web-portfolio/static/media/bg-image.42a2660ff57b10b3ee33.jpg",
+    "static/media/Seminaut-Internship.pdf": "/ralph-dahilig-web-portfolio/static/media/Seminaut-Internship.d59d78833f4ab22e9102.pdf",
+    "static/media/bootstrap.png": "/ralph-dahilig-web-portfolio/static/media/bootstrap.cb1aa7ebab86974f5bb0.png",
+    "static/media/csb.png": "/ralph-dahilig-web-portfolio/static/media/csb.88f9475d5f4c0880daa9.png",
     "static/media/dev-ralph.png": "/ralph-dahilig-web-portfolio/static/media/dev-ralph.0095d64d32c051492533.png",
+    "static/media/UB-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/UB-Certificate.eb5bc9fe6807ac22c5de.pdf",
     "static/media/2f-go.png": "/ralph-dahilig-web-portfolio/static/media/2f-go.f753e90d2d36e1e7d9aa.png",
     "static/media/react-icon.png": "/ralph-dahilig-web-portfolio/static/media/react-icon.af2e763c84253358ee6b.png",
+    "static/media/UB-Data_Science_Development_Program-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/UB-Data_Science_Development_Program-Certificate.45d4df8aadfae835ee6c.pdf",
+    "static/media/resume-dahilig_ralph_lance_martin.pdf": "/ralph-dahilig-web-portfolio/static/media/resume-dahilig_ralph_lance_martin.cccf089bb1274a13764a.pdf",
+    "static/media/unionbank.png": "/ralph-dahilig-web-portfolio/static/media/unionbank.e2626823b38aad63954e.png",
     "static/media/css-icon.png": "/ralph-dahilig-web-portfolio/static/media/css-icon.7e4bca2c8de846c38bd8.png",
     "static/media/html-icon.png": "/ralph-dahilig-web-portfolio/static/media/html-icon.9dd7984c51ec7865ae42.png",
     "static/media/little-lemon.png": "/ralph-dahilig-web-portfolio/static/media/little-lemon.aef9a9cb394506f248f1.png",
-    "static/media/ralph-dahilig-cv.pdf": "/ralph-dahilig-web-portfolio/static/media/ralph-dahilig-cv.6d7c94fb824734b7a0e2.pdf",
+    "static/media/node.png": "/ralph-dahilig-web-portfolio/static/media/node.e328955d6bbbf3ebc72b.png",
+    "static/media/accenture.png": "/ralph-dahilig-web-portfolio/static/media/accenture.be56100c4c1edcc8e0be.png",
     "static/media/git-icon.png": "/ralph-dahilig-web-portfolio/static/media/git-icon.06c009b3c226c5d7ef0b.png",
     "static/media/js-icon.png": "/ralph-dahilig-web-portfolio/static/media/js-icon.d6cea0fccb402bcd1b4e.png",
+    "static/media/sql.png": "/ralph-dahilig-web-portfolio/static/media/sql.d0875781b3030e385cc1.png",
     "static/media/mentalit-e.png": "/ralph-dahilig-web-portfolio/static/media/mentalit-e.5ca9a9acdff6e57470fa.png",
     "static/media/controller.png": "/ralph-dahilig-web-portfolio/static/media/controller.b65c823f1242700f77d9.png",
     "static/media/logo.png": "/ralph-dahilig-web-portfolio/static/media/logo.4e6f28971f9bdb5cecc4.png",
     "index.html": "/ralph-dahilig-web-portfolio/index.html",
     "main.ffe34ec7.css.map": "/ralph-dahilig-web-portfolio/static/css/main.ffe34ec7.css.map",
-    "main.95cd1a01.js.map": "/ralph-dahilig-web-portfolio/static/js/main.95cd1a01.js.map"
+    "main.b309326e.js.map": "/ralph-dahilig-web-portfolio/static/js/main.b309326e.js.map"
   },
   "entrypoints": [
     "static/css/main.ffe34ec7.css",
-    "static/js/main.95cd1a01.js"
+    "static/js/main.b309326e.js"
   ]
 }
