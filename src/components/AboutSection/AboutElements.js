@@ -76,7 +76,7 @@ export const AboutIcon = styled.img`
 `
 
 export const TimeLineContainer = styled.div`
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
 `
 
@@ -137,6 +137,7 @@ export const TimeLineP = styled.p`
     margin-top: 10px;
     font-size: 1.2rem;
     transition: all 1s;
+    text-align: justify;
     
     @media screen and (max-width: 880px) {
         font-size: 1rem;
@@ -150,6 +151,7 @@ export const TimeLineP = styled.p`
 
 export const TimeLineDate = styled.h3`
     margin-top: 25px;
+    margin-top: 25px;
     font-size: 1.3rem;
     transition: all 1s;
     
@@ -159,5 +161,31 @@ export const TimeLineDate = styled.h3`
 
     @media screen and (max-width: 500px) {
         font-size: 0.95rem;
+    }
+`
+
+export const TimeLineButtons = styled.div`
+    margin: 3rem;
+`
+
+export const TimeLineAnchor = styled.a`
+    padding: 1rem;
+    width: 160px;
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 800;
+    transition: all ease 1s;
+    border: 2px solid ;
+
+    &:hover {
+        transform: scale(1.2);
+        background-color: #ffffff;
+        color: #000000;
+        cursor:pointer;
     }
 `

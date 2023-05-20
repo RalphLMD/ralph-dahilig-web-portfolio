@@ -91,6 +91,7 @@ export const HeroButton = styled.a`
     font-weight: 800;
     transition: all ease 1s;
     border: 2px solid ;
+    
 
     &:hover {
         transform: scale(1.2);

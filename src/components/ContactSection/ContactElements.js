@@ -29,10 +29,14 @@ export const ContactRow = styled.div`
 `
 export const ContactCol = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     flex: 1 1 50%;
+
+    @media screen and (max-width: 990px) {
+        flex-direction: column;
+    }
 `
 
 export const ContactItem = styled.div`
@@ -41,6 +45,7 @@ export const ContactItem = styled.div`
     align-items: center;
     max-width: 100%;
     width: 300px;
+    height: 270px;
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     transition: all 1s;
 

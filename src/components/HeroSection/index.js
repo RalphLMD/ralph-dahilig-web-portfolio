@@ -28,7 +28,7 @@ const HeroSection = () => {
             <HeroH1>Ralph Lance M. Dahilig</HeroH1>
             <HeroH3>
                 <Typewriter
-                words={['Jr. Front-End Web Developer', 'UI/UX Designer']}
+                words={['Jr. Web Developer', 'UI/UX Designer']}
                 loop={0}
                 cursor
                 cursorStyle='|'
@@ -38,7 +38,7 @@ const HeroSection = () => {
                 />
             </HeroH3>
             
-            <HeroButton href={require("../../files/ralph-dahilig-cv.pdf")} target="_blank">View Resume</HeroButton>
+            <HeroButton href={require("../../files/resume-dahilig_ralph_lance_martin.pdf")} target="_blank">View Resume</HeroButton>
         </HeroProfile>
 
     </HeroContainer>

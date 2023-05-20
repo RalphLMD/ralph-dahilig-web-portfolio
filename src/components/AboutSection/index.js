@@ -16,7 +16,9 @@ import {
     TimeLineContent,
     TimeLineTitle,
     TimeLineP,
-    TimeLineDate
+    TimeLineDate,
+    TimeLineButtons,
+    TimeLineAnchor
 } from './AboutElements'
 
 
@@ -25,11 +27,11 @@ const AboutSection = ({
     aboutThree, aboutInfo, 
     descOne, descTwo, 
     descThree, descFour, 
-    descFive, descSix, 
+    descFive, descSix, descSeven, descEight, 
     dateOne, dateTwo, 
-    dateThree, dateFour,
+    dateThree, dateFour, dateFive,
     titleOne, titleTwo,
-    titleThree, titleFour
+    titleThree, titleFour, titleFive
 }) => {
   return (
     <>
@@ -45,6 +47,9 @@ const AboutSection = ({
                     <AboutIcon src={require("../../images/js-icon.png")} />
                     <AboutIcon src={require("../../images/react-icon.png")} />
                     <AboutIcon src={require("../../images/git-icon.png")} />
+                    <AboutIcon src={require("../../images/bootstrap.png")} />
+                    <AboutIcon src={require("../../images/sql.png")} />
+                    <AboutIcon src={require("../../images/node.png")} />
                 </AboutIconContainer>
                 </AboutRow>
 
@@ -59,29 +64,52 @@ const AboutSection = ({
             <TimeLineContainer>
             
                 <TimeLineContent>
+                    <AboutIcon src={require("../../images/csb.png")} />
                     <TimeLineTitle>{titleOne}</TimeLineTitle>
                     <TimeLineP>{descOne}</TimeLineP>                    
                     <TimeLineDate>{dateOne}</TimeLineDate>
                 </TimeLineContent>
                 
                 <TimeLineContent>
+                    <AboutIcon src={require("../../images/pj-link.png")} />
+                    <AboutIcon src={require("../../images/accenture.png")} />
                     <TimeLineTitle>{titleTwo}</TimeLineTitle>
                     <TimeLineP>{descTwo}</TimeLineP>                    
                     <TimeLineP>{descThree}</TimeLineP>                    
                     <TimeLineDate>{dateTwo}</TimeLineDate>
+                    <TimeLineButtons>
+                        <TimeLineAnchor href={require("../../files/JLP-PJ_LINK-N5-Certificate.pdf")} target="_blank">View Certificate</TimeLineAnchor>
+                    </TimeLineButtons>
                 </TimeLineContent>
 
                 <TimeLineContent>
-                <TimeLineTitle>{titleThree}</TimeLineTitle>
+                    <AboutIcon src={require("../../images/unionbank.png")} />
+                    <TimeLineTitle>{titleThree}</TimeLineTitle>
                     <TimeLineP>{descFour}</TimeLineP>    
                     <TimeLineP>{descFive}</TimeLineP>                    
                     <TimeLineDate>{dateThree}</TimeLineDate>
+                    <TimeLineButtons>
+                        <TimeLineAnchor href={require("../../files/UB-Data_Science_Development_Program-Certificate.pdf")} target="_blank">View Certificate</TimeLineAnchor>
+                        <TimeLineAnchor href={require("../../files/UB-Certified_Data_Science_Apprentice-Certificate.pdf")} target="_blank">View Certificate</TimeLineAnchor>
+                        <TimeLineAnchor href={require("../../files/UB-Certificate.pdf")} target="_blank">View Certificate</TimeLineAnchor>
+                    </TimeLineButtons>
                 </TimeLineContent>
 
                 <TimeLineContent>
+                    <AboutIcon src={require("../../images/seminaut.png")} />
                     <TimeLineTitle>{titleFour}</TimeLineTitle>
-                    <TimeLineP>{descSix}</TimeLineP>                    
+                    <TimeLineP>{descSix}</TimeLineP>    
+                    <TimeLineP>{descSeven}</TimeLineP>                   
                     <TimeLineDate>{dateFour}</TimeLineDate>
+                    <TimeLineButtons>
+                        <TimeLineAnchor href={require("../../files/Seminaut-Internship.pdf")} target="_blank">View Certificate</TimeLineAnchor>
+                    </TimeLineButtons>
+                </TimeLineContent>
+
+                <TimeLineContent>
+                    <TimeLineTitle>{titleFive}</TimeLineTitle>
+                    <TimeLineP>{descEight}</TimeLineP>                    
+                    <TimeLineDate>{dateFive}</TimeLineDate>
                 </TimeLineContent>
 
             </TimeLineContainer>

@@ -11,6 +11,7 @@ import {
   CardInfoSection,
   CardDetailSection,
   CardTitle,
+  CardH2,
   CardSubTitle,
   CardPar,
   CardLinks,
@@ -21,15 +22,17 @@ import {
 const ProjectSection = ({
   cardTitleOne, cardTitleTwo, 
   cardTitleThree, cardTitleFour, 
-  cardTitleFive, 
+  cardTitleFive, cardTitleSix,
   cardDateOne, cardDateTwo, 
   cardDateThree, cardDateFour,
-  cardDateFive,
+  cardDateFive, cardDateSix,
   cardParOne, cardParTwo, 
   cardParThree, cardParFour,
   cardParFive, cardParSix, cardParSeven,
   cardParEight, cardParNine,
-  cardParTen, cardParEleven, cardParTwelve
+  cardParTen, cardParEleven, cardParTwelve, 
+  cardParThirteen, cardParFourteen,
+  cardH2One, cardH2Two, cardH2Three, cardH2Four, cardH2Five
 }) => {
   return (
     <>
@@ -46,6 +49,7 @@ const ProjectSection = ({
             <CardInfoSection>
               <CardDetailSection>
                   <CardTitle>{cardTitleOne}</CardTitle>
+                  <CardH2>{cardH2One}</CardH2>
                   <CardSubTitle>{cardDateOne}</CardSubTitle>
                   <CardPar>{cardParOne}</CardPar>
                   <CardPar>{cardParTwo}</CardPar>
@@ -61,6 +65,7 @@ const ProjectSection = ({
             <CardInfoSection>
               <CardDetailSection>
                   <CardTitle>{cardTitleTwo}</CardTitle>
+                  <CardH2>{cardH2Two}</CardH2>
                   <CardSubTitle>{cardDateTwo}</CardSubTitle>
                   <CardPar>{cardParThree}</CardPar>
                   <CardPar>{cardParFour}</CardPar>
@@ -85,6 +90,7 @@ const ProjectSection = ({
             <CardInfoSection>
               <CardDetailSection>
                   <CardTitle>{cardTitleThree}</CardTitle>
+                  <CardH2>{cardH2Three}</CardH2>
                   <CardSubTitle>{cardDateThree}</CardSubTitle>
                   <CardPar>{cardParSix}</CardPar>
                   <CardPar>{cardParSeven}</CardPar>
@@ -101,6 +107,7 @@ const ProjectSection = ({
             <CardInfoSection>
               <CardDetailSection>
                   <CardTitle>{cardTitleFour}</CardTitle>
+                  <CardH2>{cardH2One}</CardH2>
                   <CardSubTitle>{cardDateFour}</CardSubTitle>
                   <CardPar>{cardParEight}</CardPar>
                   <CardPar>{cardParNine}</CardPar>
@@ -124,15 +131,37 @@ const ProjectSection = ({
             <CardInfoSection>
               <CardDetailSection>
                   <CardTitle>{cardTitleFive}</CardTitle>
+                  <CardH2>{cardH2Four}</CardH2>
                   <CardSubTitle>{cardDateFive}</CardSubTitle>
                   <CardPar>{cardParTen}</CardPar>
                   <CardPar>{cardParEleven}</CardPar>
                   <CardPar>{cardParTwelve}</CardPar>
                   <CardLinks>
-                    <CardButton href="" target="_blank">Github</CardButton>
-                    <CardButton href="" target="_blank">Live Preview</CardButton>
+                    <CardButton href="https://github.com/RalphLMD/ralph-dahilig-web-portfolio" target="_blank">Github</CardButton>
+                    <CardButton href="https://ralphlmd.github.io/ralph-dahilig-web-portfolio/" target="_blank">Live Preview</CardButton>
                   </CardLinks>
               </CardDetailSection>
+            </CardInfoSection>
+          </ProjectCard>
+
+          <ProjectCard>
+            <CardInfoSection>
+              <CardDetailSection>
+                  <CardTitle>{cardTitleSix}</CardTitle>
+                  <CardH2>{cardH2Five}</CardH2>
+                  <CardSubTitle>{cardDateSix}</CardSubTitle>
+                  <CardPar>{cardParThirteen}</CardPar>
+                  <CardPar>{cardParFourteen}</CardPar>
+                  <CardLinks>
+                    <CardButton href="https://guildgaming.gg/" target="_blank">Live Preview</CardButton>
+                  </CardLinks>
+              </CardDetailSection>
+            </CardInfoSection>
+
+            <CardInfoSection>
+              <CardImgSection>
+                <CardImg src={require("../../images/guild-gaming.png")}/>
+              </CardImgSection>
             </CardInfoSection>
           </ProjectCard>
 

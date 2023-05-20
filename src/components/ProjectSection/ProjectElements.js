@@ -20,13 +20,25 @@ export const ProjectH1 = styled.h1`
         font-size: 3.25rem;
     }
 `
+
+export const CardH2 = styled.h2`
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: #cccccc;
+    text-align: center;
+    transition: all 1s;
+
+    @media screen and (max-width: 780px) {
+        font-size: 1.75rem;
+    }
+`
 export const ProjectCard = styled.div`
     display: flex;
     flex-wrap: wrap;
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
-    margin: 25px;
-    padding: 15px;
-    transition: all 1s;
+    margin: 3rem;
+    padding: 2rem;
+    transition: all 1s; 
 
     &:hover {
         transform: scale(1.030);
@@ -44,10 +56,15 @@ export const CardImgSection = styled.div`
 `
 
 export const CardImg = styled.img`
-    max-width: 100%;
-    width: 400px;
+    border-radius: 60%;
+    width: 75%;
     margin: 10px;
     transition: all 1s;
+    margin-top: 2rem;
+
+    &:hover {
+        transform: rotate(360deg);
+    }
 
     @media screen and (max-width: 1010px) {
         width: 330px;
@@ -133,6 +150,7 @@ export const CardLinks = styled.div`
 `
 
 export const CardButton = styled.a`
+    margin-top: 6rem;
     padding: 1rem;
     width: 150px;
     text-align: center;
