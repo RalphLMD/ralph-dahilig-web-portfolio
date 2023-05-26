@@ -1,5 +1,9 @@
 import React from 'react'
 
+import Pulse from 'react-reveal/Pulse'
+import Fade from 'react-reveal/Fade'
+import Slide from 'react-reveal/Slide'
+
 import {
     /* About Me */
     AboutContainer,
@@ -37,10 +41,13 @@ const AboutSection = ({
     <>
         <AboutContainer id='about'>
             <AboutH1>{aboutOne}</AboutH1>
+            <Fade top>
             <AboutCol>
                 <AboutRow>
                     <AboutP>{aboutInfo}</AboutP>
                     <AboutH1>{aboutTwo}</AboutH1>
+    
+                <Pulse distance="20%" duration={1500}>
                 <AboutIconContainer>
                     <AboutIcon src={require("../../images/html-icon.png")} />
                     <AboutIcon src={require("../../images/css-icon.png")} />
@@ -51,18 +58,22 @@ const AboutSection = ({
                     <AboutIcon src={require("../../images/sql.png")} />
                     <AboutIcon src={require("../../images/node.png")} />
                 </AboutIconContainer>
+                </Pulse>
+
                 </AboutRow>
 
                 <AboutRow>
                     <AboutImg src={require("../../images/dev-ralph.png")}/>
                 </AboutRow>
             </AboutCol>
+            </Fade>
 
             <AboutH1>{aboutThree}</AboutH1>
             <AboutCol>
 
+            <Slide left>  
             <TimeLineContainer>
-            
+
                 <TimeLineContent>
                     <AboutIcon src={require("../../images/csb.png")} />
                     <TimeLineTitle>{titleOne}</TimeLineTitle>
@@ -113,7 +124,8 @@ const AboutSection = ({
                 </TimeLineContent>
 
             </TimeLineContainer>
-
+            </Slide>
+            
             </AboutCol>
         </AboutContainer>
     </>

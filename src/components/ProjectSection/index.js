@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Fade from "react-reveal/Fade"
+
 import {
   /* Projects */
   ProjectContainer,
@@ -36,11 +38,11 @@ const ProjectSection = ({
 }) => {
   return (
     <>
-        <ProjectContainer id='projects'>
+    <ProjectContainer id='projects'>
         <ProjectH1>Projects</ProjectH1>
-
         <ProjectWrapper> 
-        
+          
+        <Fade top distance="20%" duration={1500}>
           <ProjectCard>
             <CardImgSection>
               <CardImg src={require("../../images/controller.png")}/>
@@ -164,9 +166,8 @@ const ProjectSection = ({
               </CardImgSection>
             </CardInfoSection>
           </ProjectCard>
-
+          </Fade>
         </ProjectWrapper>
-
         </ProjectContainer>
     </>
   )
