@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Fade from "react-reveal/Fade"
+
 import { 
     FaPhone,
     FaMailBulk,
@@ -25,6 +27,7 @@ const ContactSection = () => {
         <ContactContainer id='contacts'>
             <ContactH1>Contacts</ContactH1>
 
+            <Fade top distance="20%" duration={1500}>
             <ContactWrapper>
                 <ContactRow>
                     <ContactCol>
@@ -55,6 +58,7 @@ const ContactSection = () => {
                 </ContactRow>
 
             </ContactWrapper>
+            </Fade>
 
         </ContactContainer>
     </>
