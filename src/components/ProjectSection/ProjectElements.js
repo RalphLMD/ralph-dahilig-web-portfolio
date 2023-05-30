@@ -16,20 +16,24 @@ export const ProjectH1 = styled.h1`
     text-align: center;
     transition: all 1s;
 
-    @media screen and (max-width: 780px) {
+    @media screen and (max-width: 880px) {
         font-size: 3.25rem;
     }
 `
 
 export const CardH2 = styled.h2`
     font-weight: 800;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #cccccc;
     text-align: center;
     transition: all 1s;
 
-    @media screen and (max-width: 780px) {
-        font-size: 1.75rem;
+    @media screen and (max-width: 880px) {
+        font-size: 1.5rem;
+    }
+
+    @media screen and (max-width: 500px) {
+        font-size: 1rem;
     }
 `
 export const ProjectCard = styled.div`
@@ -44,7 +48,7 @@ export const ProjectCard = styled.div`
         transform: scale(1.030);
     }
 
-    @media screen and (max-width: 890px) {
+    @media screen and (max-width: 880px) {
         flex-direction: column;
     }
 
@@ -52,39 +56,18 @@ export const ProjectCard = styled.div`
 
 export const CardImgSection = styled.div`
     flex-basis: 50%;
-    text-align: center;
 `
 
 export const CardImg = styled.img`
     border-radius: 60%;
-    width: 75%;
-    margin: 10px;
+    width: 100%;
     transition: all 1s;
-    margin-top: 2rem;
+    padding: 4rem;
 
     &:hover {
         transform: rotate(360deg);
     }
 
-    @media screen and (max-width: 1010px) {
-        width: 330px;
-    }
-
-    @media screen and (max-width: 700px) {
-        width: 300px;
-    }
-
-    @media screen and (max-width: 500px) {
-        width: 230px;
-    }
-
-    @media screen and (max-width: 430px) {
-        width: 150px;
-    }
-
-    @media screen and (max-width: 375px) {
-        width: 100px;
-    }
 `
 
 export const CardInfoSection = styled.div`
@@ -94,11 +77,10 @@ export const CardInfoSection = styled.div`
 `
 
 export const CardDetailSection = styled.div`
-    margin: 25px;
 `
 
 export const CardTitle = styled.h1`
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
     text-align: center;
     font-size: 2.4rem;
     transition: all 1s;
@@ -113,7 +95,7 @@ export const CardTitle = styled.h1`
 `
 
 export const CardSubTitle = styled.h2`
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
     text-align: center;
     font-size: 1.5rem;
     transition: all 1s;
@@ -129,7 +111,7 @@ export const CardSubTitle = styled.h2`
 
 export const CardPar = styled.p`
     text-align: justify;
-    margin: 15px 5px;
+    margin: 1.5rem;
     font-size: 1.2rem;
     transition: all 1s;
     
@@ -150,12 +132,10 @@ export const CardLinks = styled.div`
 `
 
 export const CardButton = styled.a`
-    margin-top: 6rem;
     padding: 1rem;
+    margin: 0.5rem;
     width: 150px;
     text-align: center;
-    margin-top: 15px;
-    margin-right: 20px;
     border-radius: 30px;
     background-color: #000000;
     color: #ffffff;

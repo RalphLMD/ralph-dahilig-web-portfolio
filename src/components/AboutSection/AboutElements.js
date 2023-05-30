@@ -120,7 +120,7 @@ export const TimeLineContent = styled.div`
 `
 
 export const TimeLineTitle = styled.h1`
-    margin-bottom: 25px;
+    margin: 2rem;
     font-size: 2.4rem;
     transition: all 1s;
     
@@ -134,7 +134,7 @@ export const TimeLineTitle = styled.h1`
 `
 
 export const TimeLineP = styled.p`
-    margin-top: 10px;
+    margin: 2rem;
     font-size: 1.2rem;
     transition: all 1s;
     text-align: justify;
@@ -150,8 +150,7 @@ export const TimeLineP = styled.p`
 
 
 export const TimeLineDate = styled.h3`
-    margin-top: 25px;
-    margin-top: 25px;
+    margin: 2rem;
     font-size: 1.3rem;
     transition: all 1s;
     
@@ -165,15 +164,20 @@ export const TimeLineDate = styled.h3`
 `
 
 export const TimeLineButtons = styled.div`
-    margin: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (max-width: 880px) {
+        flex-direction: column;
+    }
 `
 
 export const TimeLineAnchor = styled.a`
     padding: 1rem;
-    width: 160px;
+    width: 200px;
     text-align: center;
-    margin-top: 15px;
-    margin-right: 20px;
+    margin: 0.5rem;
     border-radius: 30px;
     background-color: #000000;
     color: #ffffff;

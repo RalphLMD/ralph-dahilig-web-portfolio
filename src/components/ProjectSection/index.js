@@ -159,14 +159,13 @@ const ProjectSection = ({
                   </CardLinks>
               </CardDetailSection>
             </CardInfoSection>
-
-            <CardInfoSection>
-              <CardImgSection>
+            
+            <CardImgSection>
                 <CardImg src={require("../../images/guild-gaming.png")}/>
-              </CardImgSection>
-            </CardInfoSection>
+            </CardImgSection>
           </ProjectCard>
           </Fade>
+
         </ProjectWrapper>
         </ProjectContainer>
     </>
