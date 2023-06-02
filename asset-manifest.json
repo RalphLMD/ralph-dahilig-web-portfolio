@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ralph-dahilig-web-portfolio/static/css/main.ffe34ec7.css",
-    "main.js": "/ralph-dahilig-web-portfolio/static/js/main.94dfd18f.js",
+    "main.js": "/ralph-dahilig-web-portfolio/static/js/main.fa39bf4f.js",
     "static/media/mentalit-e.pdf": "/ralph-dahilig-web-portfolio/static/media/mentalit-e.4d080350db830e82d3ff.pdf",
     "static/media/JLP-PJ_LINK-N5-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/JLP-PJ_LINK-N5-Certificate.9a1aeb037e870889395d.pdf",
     "static/media/UB-Certified_Data_Science_Apprentice-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/UB-Certified_Data_Science_Apprentice-Certificate.eedffeaf56080a3849ad.pdf",
@@ -30,10 +30,10 @@
     "static/media/logo.png": "/ralph-dahilig-web-portfolio/static/media/logo.4e6f28971f9bdb5cecc4.png",
     "index.html": "/ralph-dahilig-web-portfolio/index.html",
     "main.ffe34ec7.css.map": "/ralph-dahilig-web-portfolio/static/css/main.ffe34ec7.css.map",
-    "main.94dfd18f.js.map": "/ralph-dahilig-web-portfolio/static/js/main.94dfd18f.js.map"
+    "main.fa39bf4f.js.map": "/ralph-dahilig-web-portfolio/static/js/main.fa39bf4f.js.map"
   },
   "entrypoints": [
     "static/css/main.ffe34ec7.css",
-    "static/js/main.94dfd18f.js"
+    "static/js/main.fa39bf4f.js"
   ]
 }
