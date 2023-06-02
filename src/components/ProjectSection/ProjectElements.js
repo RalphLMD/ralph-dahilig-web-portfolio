@@ -56,13 +56,14 @@ export const ProjectCard = styled.div`
 
 export const CardImgSection = styled.div`
     flex-basis: 50%;
+    margin: auto;
 `
 
 export const CardImg = styled.img`
     border-radius: 60%;
     width: 100%;
     transition: all 1s;
-    padding: 4rem;
+    padding: 3rem;
 
     &:hover {
         transform: rotate(360deg);

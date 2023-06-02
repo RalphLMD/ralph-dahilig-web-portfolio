@@ -41,7 +41,7 @@ const AboutSection = ({
     <>
         <AboutContainer id='about'>
             <AboutH1>{aboutOne}</AboutH1>
-            <Fade top>
+            <Fade top distance="20%" duration={1500}>
             <AboutCol>
                 <AboutRow>
                     <AboutP>{aboutInfo}</AboutP>
@@ -71,7 +71,7 @@ const AboutSection = ({
             <AboutH1>{aboutThree}</AboutH1>
             <AboutCol>
 
-            <Slide left>  
+            <Fade top distance="20%" duration={1500}>
             <TimeLineContainer>
 
                 <TimeLineContent>
@@ -117,8 +117,6 @@ const AboutSection = ({
                     </TimeLineButtons>
                 </TimeLineContent>
 
-
-
                 <TimeLineContent>
                     <TimeLineTitle>{titleFive}</TimeLineTitle>
                     <TimeLineP>{descEight}</TimeLineP>                    
@@ -126,7 +124,7 @@ const AboutSection = ({
                 </TimeLineContent>
 
             </TimeLineContainer>
-            </Slide>
+            </Fade>
             
             </AboutCol>
         </AboutContainer>

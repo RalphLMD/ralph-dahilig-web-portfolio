@@ -145,6 +145,7 @@ const ProjectSection = ({
               </CardDetailSection>
             </CardInfoSection>
           </ProjectCard>
+          
 
           <ProjectCard>
             <CardInfoSection>
