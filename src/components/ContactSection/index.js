@@ -51,7 +51,7 @@ const ContactSection = () => {
                             <ContactItem>
                                 <ContactIcon><FaMapMarked/></ContactIcon>
                                 <ContactTitle>Location</ContactTitle>
-                                <ContactInfo href='https://www.google.com/maps/place/EZR+Motocycle+Repair+Shop+(Specialized+on+Honda+Cb400sf+Parts,+Repair+%26+Custom+Modifications)/@14.6501637,120.9678906,20z/data=!4m20!1m13!4m12!1m4!2m2!1d120.9679795!2d14.6503399!4e1!1m6!1m2!1s0x3397b5c3021fdf31:0x4b9af86f8d80b2ce!2sEZR+Motocycle+Repair+Shop+(Specialized+on+Honda+Cb400sf+Parts,+Repair+%26+Custom+Modifications),+Tulingan+st,+corner+Dagat-Dagatan+Ave,+Caloocan,+1400+Metro+Manila,+Philippines!2m2!1d120.9679751!2d14.650349!3m5!1s0x3397b5c3021fdf31:0x4b9af86f8d80b2ce!8m2!3d14.6503399!4d120.9679795!16s%2Fg%2F11c1prgkbc' target='_blank'>Lot 34 Blk 28 PH3 F1 Tulingan St. Kaunlaran Village, Caloocan City</ContactInfo>
+                                <ContactInfo href='https://www.google.com/maps/place/EZR+Motocycle+Repair+Shop+(Specialized+on+Honda+Cb400sf+Parts,+Repair+%26+Custom+Modifications)/@14.6501637,120.9678906,20z/data=!4m20!1m13!4m12!1m4!2m2!1d120.9679795!2d14.6503399!4e1!1m6!1m2!1s0x3397b5c3021fdf31:0x4b9af86f8d80b2ce!2sEZR+Motocycle+Repair+Shop+(Specialized+on+Honda+Cb400sf+Parts,+Repair+%26+Custom+Modifications),+Tulingan+st,+corner+Dagat-Dagatan+Ave,+Caloocan,+1400+Metro+Manila,+Philippines!2m2!1d120.9679751!2d14.650349!3m5!1s0x3397b5c3021fdf31:0x4b9af86f8d80b2ce!8m2!3d14.6503399!4d120.9679795!16s%2Fg%2F11c1prgkbc' target='_blank'>Caloocan City</ContactInfo>
                             </ContactItem>
                         </ContactRow>
                     </ContactCol>
