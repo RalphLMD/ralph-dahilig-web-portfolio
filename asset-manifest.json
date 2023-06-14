@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ralph-dahilig-web-portfolio/static/css/main.ffe34ec7.css",
-    "main.js": "/ralph-dahilig-web-portfolio/static/js/main.fa39bf4f.js",
+    "main.js": "/ralph-dahilig-web-portfolio/static/js/main.52115b7d.js",
     "static/media/mentalit-e.pdf": "/ralph-dahilig-web-portfolio/static/media/mentalit-e.4d080350db830e82d3ff.pdf",
     "static/media/JLP-PJ_LINK-N5-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/JLP-PJ_LINK-N5-Certificate.9a1aeb037e870889395d.pdf",
     "static/media/UB-Certified_Data_Science_Apprentice-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/UB-Certified_Data_Science_Apprentice-Certificate.eedffeaf56080a3849ad.pdf",
@@ -14,8 +14,8 @@
     "static/media/UB-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/UB-Certificate.eb5bc9fe6807ac22c5de.pdf",
     "static/media/2f-go.png": "/ralph-dahilig-web-portfolio/static/media/2f-go.f753e90d2d36e1e7d9aa.png",
     "static/media/react-icon.png": "/ralph-dahilig-web-portfolio/static/media/react-icon.af2e763c84253358ee6b.png",
+    "static/media/resume-dahilig_ralph_lance_martin.pdf": "/ralph-dahilig-web-portfolio/static/media/resume-dahilig_ralph_lance_martin.b94e5a0220d32bbf8ff4.pdf",
     "static/media/UB-Data_Science_Development_Program-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/UB-Data_Science_Development_Program-Certificate.45d4df8aadfae835ee6c.pdf",
-    "static/media/resume-dahilig_ralph_lance_martin.pdf": "/ralph-dahilig-web-portfolio/static/media/resume-dahilig_ralph_lance_martin.cccf089bb1274a13764a.pdf",
     "static/media/unionbank.png": "/ralph-dahilig-web-portfolio/static/media/unionbank.e2626823b38aad63954e.png",
     "static/media/css-icon.png": "/ralph-dahilig-web-portfolio/static/media/css-icon.7e4bca2c8de846c38bd8.png",
     "static/media/html-icon.png": "/ralph-dahilig-web-portfolio/static/media/html-icon.9dd7984c51ec7865ae42.png",
@@ -30,10 +30,10 @@
     "static/media/logo.png": "/ralph-dahilig-web-portfolio/static/media/logo.4e6f28971f9bdb5cecc4.png",
     "index.html": "/ralph-dahilig-web-portfolio/index.html",
     "main.ffe34ec7.css.map": "/ralph-dahilig-web-portfolio/static/css/main.ffe34ec7.css.map",
-    "main.fa39bf4f.js.map": "/ralph-dahilig-web-portfolio/static/js/main.fa39bf4f.js.map"
+    "main.52115b7d.js.map": "/ralph-dahilig-web-portfolio/static/js/main.52115b7d.js.map"
   },
   "entrypoints": [
     "static/css/main.ffe34ec7.css",
-    "static/js/main.fa39bf4f.js"
+    "static/js/main.52115b7d.js"
   ]
 }
