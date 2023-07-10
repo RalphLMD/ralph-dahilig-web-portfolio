@@ -31,8 +31,8 @@ export const AboutH1 = styled.h1`
     font-weight: 800;
     font-size: 4rem;
     border-bottom: 3px solid #000000;
-    @media screen and (max-width: 780px) {
-        font-size: 3.25rem;
+    @media screen and (max-width: 500px) {
+        font-size: 2rem;
         transition: all ease;
     }
 `
@@ -63,8 +63,8 @@ export const AboutIconContainer = styled.div`
 `
 
 export const AboutIcon = styled.img`
-    max-width: 100%;
-    height: 160px;
+    width: 100%;
+    max-width: 200px;
     margin: 10px;
     transition: all 1s;
 
@@ -73,11 +73,19 @@ export const AboutIcon = styled.img`
         background-color: #ffffff;
         color: #000000;
     }
+
+    @media only screen and (max-width: 500px)  {
+        width: 100px;
+    }
 `
 
 export const TimeLineContainer = styled.div`
-    max-width: 800px;
-    margin: auto;
+    max-width: 1250px;  
+
+    @media only screen and (max-width: 500px)  {
+        width: 250px;
+        margin: auto; 
+    }
 `
 
 export const TimeLineContent = styled.div`
@@ -93,30 +101,30 @@ export const TimeLineContent = styled.div`
     color: #000000;
     transition: all 1s;
 
-&:nth-child(odd) {
-    border-right: 3px solid;
-    padding-left: 0;
-}
+    &:nth-child(odd) {
+        border-right: 3px solid;
+        padding-left: 0;
+    }
 
-&:nth-child(even) {
-    border-left: 3px solid;
-    padding-right: 0;
-}
+    &:nth-child(even) {
+        border-left: 3px solid;
+        padding-right: 0;
+    }
 
-&:first-child {
-    border-top: 0;
-    border-top-right-radius:0;
-    border-top-left-radius:0;
-}
+    &:first-child {
+        border-top: 0;
+        border-top-right-radius:0;
+        border-top-left-radius:0;
+    }
 
-&:last-child {
-    border-bottom-right-radius:0;
-    border-bottom-left-radius:0;
-}
+    &:last-child {
+        border-bottom-right-radius:0;
+        border-bottom-left-radius:0;
+    }
 
-&:hover {
-    transform: scale(1.1);
-}
+    &:hover {
+        transform: scale(1.1);
+    }
 `
 
 export const TimeLineTitle = styled.h1`
@@ -129,12 +137,14 @@ export const TimeLineTitle = styled.h1`
     }
 
     @media screen and (max-width: 500px) {
-        font-size: 1.6rem;
+        font-size: 1.3rem;
+        text-align: center;
     }
 `
 
 export const TimeLineP = styled.p`
-    margin: 2rem;
+    margin: auto;
+    padding: 1rem;
     font-size: 1.2rem;
     transition: all 1s;
     text-align: justify;
@@ -145,13 +155,14 @@ export const TimeLineP = styled.p`
 
     @media screen and (max-width: 500px) {
         font-size: 0.85rem;
+        width: 150px;
     }
 `
 
 
 export const TimeLineDate = styled.h3`
     margin: 2rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     transition: all 1s;
     
     @media screen and (max-width: 880px) {
@@ -191,5 +202,9 @@ export const TimeLineAnchor = styled.a`
         background-color: #ffffff;
         color: #000000;
         cursor:pointer;
+    }
+
+    @media only screen and (max-width: 500px)  {
+        width: 150px;
     }
 `

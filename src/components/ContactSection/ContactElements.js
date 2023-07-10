@@ -11,8 +11,8 @@ export const ContactH1 = styled.h1`
     border-bottom: 3px solid #000000;
     text-align: center;
 
-    @media screen and (max-width: 780px) {
-        font-size: 3.25rem;
+    @media screen and (max-width: 500px) {
+        font-size: 2rem;
         transition: 0.3s ease-in-out;
     }
 ` 

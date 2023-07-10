@@ -16,8 +16,9 @@ export const ProjectH1 = styled.h1`
     text-align: center;
     transition: all 1s;
 
-    @media screen and (max-width: 880px) {
-        font-size: 3.25rem;
+    @media screen and (max-width: 500px) {
+        font-size: 2rem;
+        transition: all ease;
     }
 `
 
@@ -52,6 +53,10 @@ export const ProjectCard = styled.div`
         flex-direction: column;
     }
 
+    @media only screen and (max-width: 500px)  {
+        width: 250px;
+        margin: 1rem auto ;
+    }
 `
 
 export const CardImgSection = styled.div`
@@ -149,6 +154,10 @@ export const CardButton = styled.a`
         transform: scale(1.2);
         background-color: #ffffff;
         color: #000000;
+    }
+
+    @media only screen and (max-width: 500px)  {
+        width: 150px;
     }
 `
 
