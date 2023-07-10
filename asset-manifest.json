@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ralph-dahilig-web-portfolio/static/css/main.ffe34ec7.css",
-    "main.js": "/ralph-dahilig-web-portfolio/static/js/main.f9bc7194.js",
+    "main.js": "/ralph-dahilig-web-portfolio/static/js/main.bfa2e6b7.js",
     "static/media/mentalit-e.pdf": "/ralph-dahilig-web-portfolio/static/media/mentalit-e.4d080350db830e82d3ff.pdf",
     "static/media/JLP-PJ_LINK-N5-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/JLP-PJ_LINK-N5-Certificate.9a1aeb037e870889395d.pdf",
     "static/media/UB-Certified_Data_Science_Apprentice-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/UB-Certified_Data_Science_Apprentice-Certificate.eedffeaf56080a3849ad.pdf",
@@ -9,6 +9,7 @@
     "static/media/bg-image.jpg": "/ralph-dahilig-web-portfolio/static/media/bg-image.42a2660ff57b10b3ee33.jpg",
     "static/media/Seminaut-Internship.pdf": "/ralph-dahilig-web-portfolio/static/media/Seminaut-Internship.d59d78833f4ab22e9102.pdf",
     "static/media/bootstrap.png": "/ralph-dahilig-web-portfolio/static/media/bootstrap.cb1aa7ebab86974f5bb0.png",
+    "static/media/unionbank.png": "/ralph-dahilig-web-portfolio/static/media/unionbank.4782ea777022a3b044af.png",
     "static/media/csb.png": "/ralph-dahilig-web-portfolio/static/media/csb.88f9475d5f4c0880daa9.png",
     "static/media/dev-ralph.png": "/ralph-dahilig-web-portfolio/static/media/dev-ralph.0095d64d32c051492533.png",
     "static/media/UB-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/UB-Certificate.eb5bc9fe6807ac22c5de.pdf",
@@ -16,7 +17,6 @@
     "static/media/react-icon.png": "/ralph-dahilig-web-portfolio/static/media/react-icon.af2e763c84253358ee6b.png",
     "static/media/resume-dahilig_ralph_lance_martin.pdf": "/ralph-dahilig-web-portfolio/static/media/resume-dahilig_ralph_lance_martin.b94e5a0220d32bbf8ff4.pdf",
     "static/media/UB-Data_Science_Development_Program-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/UB-Data_Science_Development_Program-Certificate.45d4df8aadfae835ee6c.pdf",
-    "static/media/unionbank.png": "/ralph-dahilig-web-portfolio/static/media/unionbank.e2626823b38aad63954e.png",
     "static/media/css-icon.png": "/ralph-dahilig-web-portfolio/static/media/css-icon.7e4bca2c8de846c38bd8.png",
     "static/media/html-icon.png": "/ralph-dahilig-web-portfolio/static/media/html-icon.9dd7984c51ec7865ae42.png",
     "static/media/little-lemon.png": "/ralph-dahilig-web-portfolio/static/media/little-lemon.aef9a9cb394506f248f1.png",
@@ -30,10 +30,10 @@
     "static/media/logo.png": "/ralph-dahilig-web-portfolio/static/media/logo.4e6f28971f9bdb5cecc4.png",
     "index.html": "/ralph-dahilig-web-portfolio/index.html",
     "main.ffe34ec7.css.map": "/ralph-dahilig-web-portfolio/static/css/main.ffe34ec7.css.map",
-    "main.f9bc7194.js.map": "/ralph-dahilig-web-portfolio/static/js/main.f9bc7194.js.map"
+    "main.bfa2e6b7.js.map": "/ralph-dahilig-web-portfolio/static/js/main.bfa2e6b7.js.map"
   },
   "entrypoints": [
     "static/css/main.ffe34ec7.css",
-    "static/js/main.f9bc7194.js"
+    "static/js/main.bfa2e6b7.js"
   ]
 }
