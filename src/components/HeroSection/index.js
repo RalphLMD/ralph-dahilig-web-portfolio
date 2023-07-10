@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 
 /* Alternative way to import images */
 import bg from '../../images/bg-image.jpg'
@@ -14,13 +14,29 @@ import {
     HeroH2,
     HeroH3,
     HeroButton,
-    HeroBg
+    HeroBg, HeroTime
 } from './HeroElements'
 
 const HeroSection = () => {
-  return (
+    const [date, setDate] = useState(new Date());
+    const timeText = date.toLocaleTimeString();
+
+    function refreshClock(){
+        setDate(new Date());
+    }
+
+    useEffect(() => {
+        const timerId = setInterval(refreshClock, 1000);
+        
+        return function cleanup(){
+          clearInterval(timerId);
+        }
+    })
+
+    return (
     <Fade top distance="20%" duration={1500}>
         <HeroContainer>
+        <HeroTime>{timeText}</HeroTime>
             <HeroBgContainer>
                 <HeroBg src={bg} />
             </HeroBgContainer>
