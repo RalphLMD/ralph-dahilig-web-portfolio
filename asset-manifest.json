@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ralph-dahilig-web-portfolio/static/css/main.ffe34ec7.css",
-    "main.js": "/ralph-dahilig-web-portfolio/static/js/main.b4590f3c.js",
+    "main.js": "/ralph-dahilig-web-portfolio/static/js/main.6f46e97a.js",
     "static/media/mentalit-e.pdf": "/ralph-dahilig-web-portfolio/static/media/mentalit-e.4d080350db830e82d3ff.pdf",
     "static/media/JLP-PJ_LINK-N5-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/JLP-PJ_LINK-N5-Certificate.9a1aeb037e870889395d.pdf",
     "static/media/UB-Certified_Data_Science_Apprentice-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/UB-Certified_Data_Science_Apprentice-Certificate.eedffeaf56080a3849ad.pdf",
@@ -19,6 +19,7 @@
     "static/media/UB-Data_Science_Development_Program-Certificate.pdf": "/ralph-dahilig-web-portfolio/static/media/UB-Data_Science_Development_Program-Certificate.45d4df8aadfae835ee6c.pdf",
     "static/media/css-icon.png": "/ralph-dahilig-web-portfolio/static/media/css-icon.7e4bca2c8de846c38bd8.png",
     "static/media/html-icon.png": "/ralph-dahilig-web-portfolio/static/media/html-icon.9dd7984c51ec7865ae42.png",
+    "static/media/monarch-landing.png": "/ralph-dahilig-web-portfolio/static/media/monarch-landing.62d650a45da4e65710ff.png",
     "static/media/little-lemon.png": "/ralph-dahilig-web-portfolio/static/media/little-lemon.aef9a9cb394506f248f1.png",
     "static/media/node.png": "/ralph-dahilig-web-portfolio/static/media/node.e328955d6bbbf3ebc72b.png",
     "static/media/accenture.png": "/ralph-dahilig-web-portfolio/static/media/accenture.be56100c4c1edcc8e0be.png",
@@ -30,10 +31,10 @@
     "static/media/logo.png": "/ralph-dahilig-web-portfolio/static/media/logo.4e6f28971f9bdb5cecc4.png",
     "index.html": "/ralph-dahilig-web-portfolio/index.html",
     "main.ffe34ec7.css.map": "/ralph-dahilig-web-portfolio/static/css/main.ffe34ec7.css.map",
-    "main.b4590f3c.js.map": "/ralph-dahilig-web-portfolio/static/js/main.b4590f3c.js.map"
+    "main.6f46e97a.js.map": "/ralph-dahilig-web-portfolio/static/js/main.6f46e97a.js.map"
   },
   "entrypoints": [
     "static/css/main.ffe34ec7.css",
-    "static/js/main.b4590f3c.js"
+    "static/js/main.6f46e97a.js"
   ]
 }
