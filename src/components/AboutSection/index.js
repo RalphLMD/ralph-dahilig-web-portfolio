@@ -2,7 +2,6 @@ import React from 'react'
 
 import Pulse from 'react-reveal/Pulse'
 import Fade from 'react-reveal/Fade'
-import Slide from 'react-reveal/Slide'
 
 import {
     /* About Me */
@@ -31,11 +30,11 @@ const AboutSection = ({
     aboutThree, aboutInfo, 
     descOne, descTwo, 
     descThree, descFour, 
-    descFive, descSix, descSeven, descEight, 
+    descFive, descSix, descSeven, descEight, descNine,
     dateOne, dateTwo, 
-    dateThree, dateFour, dateFive,
+    dateThree, dateFour, dateFive, dateSix,
     titleOne, titleTwo,
-    titleThree, titleFour, titleFive
+    titleThree, titleFour, titleFive, titleSix
 }) => {
   return (
     <>
@@ -118,9 +117,16 @@ const AboutSection = ({
                 </TimeLineContent>
 
                 <TimeLineContent>
+                    <AboutIcon src={require("../../images/monarch-landing.png")} />
                     <TimeLineTitle>{titleFive}</TimeLineTitle>
                     <TimeLineP>{descEight}</TimeLineP>                    
                     <TimeLineDate>{dateFive}</TimeLineDate>
+                </TimeLineContent>
+
+                <TimeLineContent>
+                    <TimeLineTitle>{titleSix}</TimeLineTitle>
+                    <TimeLineP>{descNine}</TimeLineP>                    
+                    <TimeLineDate>{dateSix}</TimeLineDate>
                 </TimeLineContent>
 
             </TimeLineContainer>

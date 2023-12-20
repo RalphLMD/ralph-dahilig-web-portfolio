@@ -40,11 +40,12 @@ export const HeroProfile = styled.div`
     justify-content: center;
     /* border: 2px solid #00ed2c; */
     /* box-shadow: rgba(0, 237, 44) 0px 5px, rgba(0, 237, 44, 0.3) 0px 10px, rgba(0, 237, 44, 0.2) 0px 15px, rgba(0, 237, 44, 0.1) 0px 20px, rgba(20, 237, 44, 0.05) 0px 25px; */
+    /* border-radius: 30px;
     box-shadow: 0px 0px 5px 7px rgba(255,255,255);
     -webkit-box-shadow: 0px 0px 5px 7px rgba(255,255,255, 0.5);
-    -moz-box-shadow: 0px 0px 5px 7px rgba(255,255,255, 0.1);
-    margin: 20px;
-    padding: 40px;
+    -moz-box-shadow: 0px 0px 5px 7px rgba(255,255,255, 0.1); */
+    margin: 40px;
+    padding: 70px;
 `
 
 export const HeroTime = styled.h2 `
@@ -54,6 +55,7 @@ export const HeroTime = styled.h2 `
     color: #00ed2c;
     margin: 20px;
     padding: 20px;
+    border-radius: 30px;
     box-shadow: 0px 0px 5px 7px rgba(255,255,255);
     -webkit-box-shadow: 0px 0px 5px 7px rgba(255,255,255, 0.5);
     -moz-box-shadow: 0px 0px 5px 7px rgba(255,255,255, 0.1);
