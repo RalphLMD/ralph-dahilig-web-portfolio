@@ -46,6 +46,8 @@ export const HeroProfile = styled.div`
     -moz-box-shadow: 0px 0px 5px 7px rgba(255,255,255, 0.1); */
     margin: 40px;
     padding: 70px;
+    width: 100%;
+
 `
 
 export const HeroTime = styled.h2 `
@@ -55,10 +57,6 @@ export const HeroTime = styled.h2 `
     color: #00ed2c;
     margin: 20px;
     padding: 20px;
-    border-radius: 30px;
-    box-shadow: 0px 0px 5px 7px rgba(255,255,255);
-    -webkit-box-shadow: 0px 0px 5px 7px rgba(255,255,255, 0.5);
-    -moz-box-shadow: 0px 0px 5px 7px rgba(255,255,255, 0.1);
 
     @media screen and (max-width: 600px) {
         font-size: 1.25rem;
@@ -116,7 +114,6 @@ export const HeroButton = styled.a`
     transition: all ease 1s;
     border: 2px solid ;
     
-
     &:hover {
         transform: scale(1.2);
         background-color: #ffffff;
