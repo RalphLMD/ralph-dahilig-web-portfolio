@@ -30,11 +30,11 @@ const AboutSection = ({
     aboutThree, aboutInfo, 
     descOne, descTwo, 
     descThree, descFour, 
-    descFive, descSix, descSeven, descEight, descNine,
+    descFive, descSix, descSeven, descEight, descNine, descEnd,
     dateOne, dateTwo, 
     dateThree, dateFour, dateFive, dateSix,
     titleOne, titleTwo,
-    titleThree, titleFour, titleFive, titleSix
+    titleThree, titleFour, titleFive, titleSix, titleEnd
 }) => {
   return (
     <>
@@ -124,9 +124,15 @@ const AboutSection = ({
                 </TimeLineContent>
 
                 <TimeLineContent>
+                    <AboutIcon src={require("../../images/usmc.png")} />
                     <TimeLineTitle>{titleSix}</TimeLineTitle>
                     <TimeLineP>{descNine}</TimeLineP>                    
                     <TimeLineDate>{dateSix}</TimeLineDate>
+                </TimeLineContent>
+
+                <TimeLineContent>
+                    <TimeLineTitle>{titleEnd}</TimeLineTitle>
+                    <TimeLineP>{descEnd}</TimeLineP>                    
                 </TimeLineContent>
 
             </TimeLineContainer>

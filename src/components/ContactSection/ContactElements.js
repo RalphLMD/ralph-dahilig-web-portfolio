@@ -7,12 +7,12 @@ export const ContactContainer = styled.div`
 
 export const ContactH1 = styled.h1`
     font-weight: 800;
-    font-size: 4rem;
+    font-size: 3rem;
     border-bottom: 3px solid #000000;
     text-align: center;
 
     @media screen and (max-width: 500px) {
-        font-size: 2rem;
+        font-size: 1.5rem;
         transition: 0.3s ease-in-out;
     }
 ` 

@@ -45,13 +45,13 @@ const HeroSection = () => {
                 <HeroH1>Ralph Lance M. Dahilig</HeroH1>
                 <HeroH3>
                     <Typewriter
-                    words={['Jr. Web Developer', 'UI/UX Designer']}
+                    words={['Jr. Web Developer', 'UI/UX Designer', 'Utilities Systems Technician']}
                     loop={0}
                     cursor
                     cursorStyle='|'
                     typeSpeed={90}
                     deleteSpeed={80}
-                    delaySpeed={1500}
+                    delaySpeed={1000}
                     />
                 </HeroH3>
                 
