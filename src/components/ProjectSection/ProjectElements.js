@@ -39,8 +39,8 @@ export const ProjectCard = styled.div`
     display: flex;
     flex-wrap: wrap;
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
-    margin: 5rem;
-    padding: 6rem;
+    margin: 8rem;
+    padding: 2rem;
     transition: all 1s; 
 
     &:hover {
@@ -49,6 +49,10 @@ export const ProjectCard = styled.div`
 
     @media screen and (max-width: 900px) {
         flex-direction: column;
+    }
+
+    @media screen and (max-width: 410px) {
+        box-shadow: inset 0px 0px 0px rgba(0,0,0,0.0);
     }
 
 `
@@ -67,7 +71,8 @@ export const CardImg = styled.img`
     */
     width: 100%;
     padding: 5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
+
 `
 
 export const CardInfoSection = styled.div`
